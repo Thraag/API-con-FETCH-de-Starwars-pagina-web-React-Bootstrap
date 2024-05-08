@@ -1,0 +1,70 @@
+html {
+    background: rgb(12, 12, 12);
+}
+.container {
+    background: rgb(0, 0, 0);
+}
+#app {
+    background: rgb(12, 12, 12);
+}
+
+.secondTitle{
+    color: rgb(177, 177, 177);
+    margin-top: 16px;
+}
+
+ul li {
+    border: 1px solid grey;
+    list-style: none;
+    padding: 3px;
+}
+.lista{
+    padding-left: 0px;
+}
+
+.h1title {
+    text-align: center;
+    
+    color: rgb(177, 177, 177);
+}
+
+input{
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    padding: 8px;
+
+}
+
+.buttonclass {
+    border-radius: 20px;
+    border: none;
+    margin-top: 8px;
+}
+
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;  
+  }
+  
+  .card {
+    flex: 0 0    auto; 
+    width: 18rem;
+  }
+
+  .card-container::-webkit-scrollbar {
+    width: 6px; 
+   
+  }
+
+  .card-container::-webkit-scrollbar-thumb {
+ 
+    background-color: #888; /* Color del "pulgar" del scrollbar */
+    border-radius: 10px; /* Radio de las esquinas del "pulgar" */
+    
+}
+
+.last {
+    margin: 0px;
+}
